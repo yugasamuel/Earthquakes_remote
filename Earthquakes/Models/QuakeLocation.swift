@@ -1,9 +1,9 @@
 /*
-See LICENSE folder for this sample’s licensing information.
-
-Abstract:
-A structure of Quake location data.
-*/
+ See LICENSE folder for this sample’s licensing information.
+ 
+ Abstract:
+ A structure of Quake location data.
+ */
 
 import Foundation
 
@@ -23,6 +23,14 @@ struct QuakeLocation: Decodable {
     struct OriginProperties {
         var latitude: Double
         var longitude: Double
+    }
+    
+    init(latitude: Double, longitude: Double) {
+        self.properties =
+        RootProperties(products: Products(origin: [
+            Origin(properties:
+                    OriginProperties(latitude: latitude, longitude: longitude))
+        ]))
     }
 }
 
