@@ -8,17 +8,43 @@
 
 /* Begin PBXBuildFile section */
 		655CB6812B3E8C53008C0093 /* EarthquakesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655CB6802B3E8C53008C0093 /* EarthquakesApp.swift */; };
-		655CB6832B3E8C53008C0093 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655CB6822B3E8C53008C0093 /* ContentView.swift */; };
 		655CB6852B3E8C55008C0093 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 655CB6842B3E8C55008C0093 /* Assets.xcassets */; };
 		655CB6882B3E8C55008C0093 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 655CB6872B3E8C55008C0093 /* Preview Assets.xcassets */; };
+		655CB6942B3E8C83008C0093 /* Quake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655CB68F2B3E8C83008C0093 /* Quake.swift */; };
+		655CB6952B3E8C83008C0093 /* QuakeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655CB6902B3E8C83008C0093 /* QuakeError.swift */; };
+		655CB6962B3E8C83008C0093 /* QuakeLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655CB6912B3E8C83008C0093 /* QuakeLocation.swift */; };
+		655CB6972B3E8C83008C0093 /* Quake+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655CB6922B3E8C83008C0093 /* Quake+Color.swift */; };
+		655CB6982B3E8C83008C0093 /* GeoJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655CB6932B3E8C83008C0093 /* GeoJSON.swift */; };
+		655CB6A42B3E8C95008C0093 /* QuakeMagnitude.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655CB69A2B3E8C95008C0093 /* QuakeMagnitude.swift */; };
+		655CB6A52B3E8C95008C0093 /* QuakeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655CB69B2B3E8C95008C0093 /* QuakeRow.swift */; };
+		655CB6A62B3E8C95008C0093 /* Quakes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655CB69C2B3E8C95008C0093 /* Quakes.swift */; };
+		655CB6A72B3E8C95008C0093 /* EditButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655CB69E2B3E8C95008C0093 /* EditButton.swift */; };
+		655CB6A82B3E8C95008C0093 /* SelectButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655CB69F2B3E8C95008C0093 /* SelectButton.swift */; };
+		655CB6A92B3E8C95008C0093 /* RefreshButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655CB6A02B3E8C95008C0093 /* RefreshButton.swift */; };
+		655CB6AA2B3E8C95008C0093 /* DeleteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655CB6A12B3E8C95008C0093 /* DeleteButton.swift */; };
+		655CB6AB2B3E8C95008C0093 /* Quakes+Toolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655CB6A22B3E8C95008C0093 /* Quakes+Toolbar.swift */; };
+		655CB6AC2B3E8C95008C0093 /* ToolbarStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655CB6A32B3E8C95008C0093 /* ToolbarStatus.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		655CB67D2B3E8C53008C0093 /* Earthquakes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Earthquakes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		655CB6802B3E8C53008C0093 /* EarthquakesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthquakesApp.swift; sourceTree = "<group>"; };
-		655CB6822B3E8C53008C0093 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		655CB6842B3E8C55008C0093 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		655CB6872B3E8C55008C0093 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		655CB68F2B3E8C83008C0093 /* Quake.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quake.swift; sourceTree = "<group>"; };
+		655CB6902B3E8C83008C0093 /* QuakeError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuakeError.swift; sourceTree = "<group>"; };
+		655CB6912B3E8C83008C0093 /* QuakeLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuakeLocation.swift; sourceTree = "<group>"; };
+		655CB6922B3E8C83008C0093 /* Quake+Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Quake+Color.swift"; sourceTree = "<group>"; };
+		655CB6932B3E8C83008C0093 /* GeoJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeoJSON.swift; sourceTree = "<group>"; };
+		655CB69A2B3E8C95008C0093 /* QuakeMagnitude.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuakeMagnitude.swift; sourceTree = "<group>"; };
+		655CB69B2B3E8C95008C0093 /* QuakeRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuakeRow.swift; sourceTree = "<group>"; };
+		655CB69C2B3E8C95008C0093 /* Quakes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quakes.swift; sourceTree = "<group>"; };
+		655CB69E2B3E8C95008C0093 /* EditButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditButton.swift; sourceTree = "<group>"; };
+		655CB69F2B3E8C95008C0093 /* SelectButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectButton.swift; sourceTree = "<group>"; };
+		655CB6A02B3E8C95008C0093 /* RefreshButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefreshButton.swift; sourceTree = "<group>"; };
+		655CB6A12B3E8C95008C0093 /* DeleteButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeleteButton.swift; sourceTree = "<group>"; };
+		655CB6A22B3E8C95008C0093 /* Quakes+Toolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Quakes+Toolbar.swift"; sourceTree = "<group>"; };
+		655CB6A32B3E8C95008C0093 /* ToolbarStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolbarStatus.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +78,8 @@
 			isa = PBXGroup;
 			children = (
 				655CB6802B3E8C53008C0093 /* EarthquakesApp.swift */,
-				655CB6822B3E8C53008C0093 /* ContentView.swift */,
+				655CB68E2B3E8C83008C0093 /* Models */,
+				655CB6992B3E8C95008C0093 /* Views */,
 				655CB6842B3E8C55008C0093 /* Assets.xcassets */,
 				655CB6862B3E8C55008C0093 /* Preview Content */,
 			);
@@ -65,6 +92,42 @@
 				655CB6872B3E8C55008C0093 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		655CB68E2B3E8C83008C0093 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				655CB68F2B3E8C83008C0093 /* Quake.swift */,
+				655CB6902B3E8C83008C0093 /* QuakeError.swift */,
+				655CB6912B3E8C83008C0093 /* QuakeLocation.swift */,
+				655CB6922B3E8C83008C0093 /* Quake+Color.swift */,
+				655CB6932B3E8C83008C0093 /* GeoJSON.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		655CB6992B3E8C95008C0093 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				655CB69A2B3E8C95008C0093 /* QuakeMagnitude.swift */,
+				655CB69B2B3E8C95008C0093 /* QuakeRow.swift */,
+				655CB69C2B3E8C95008C0093 /* Quakes.swift */,
+				655CB69D2B3E8C95008C0093 /* ToolbarContent */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		655CB69D2B3E8C95008C0093 /* ToolbarContent */ = {
+			isa = PBXGroup;
+			children = (
+				655CB69E2B3E8C95008C0093 /* EditButton.swift */,
+				655CB69F2B3E8C95008C0093 /* SelectButton.swift */,
+				655CB6A02B3E8C95008C0093 /* RefreshButton.swift */,
+				655CB6A12B3E8C95008C0093 /* DeleteButton.swift */,
+				655CB6A22B3E8C95008C0093 /* Quakes+Toolbar.swift */,
+				655CB6A32B3E8C95008C0093 /* ToolbarStatus.swift */,
+			);
+			path = ToolbarContent;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +200,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				655CB6832B3E8C53008C0093 /* ContentView.swift in Sources */,
+				655CB6952B3E8C83008C0093 /* QuakeError.swift in Sources */,
+				655CB6972B3E8C83008C0093 /* Quake+Color.swift in Sources */,
+				655CB6AB2B3E8C95008C0093 /* Quakes+Toolbar.swift in Sources */,
+				655CB6962B3E8C83008C0093 /* QuakeLocation.swift in Sources */,
+				655CB6A72B3E8C95008C0093 /* EditButton.swift in Sources */,
+				655CB6AC2B3E8C95008C0093 /* ToolbarStatus.swift in Sources */,
+				655CB6AA2B3E8C95008C0093 /* DeleteButton.swift in Sources */,
+				655CB6A62B3E8C95008C0093 /* Quakes.swift in Sources */,
+				655CB6982B3E8C83008C0093 /* GeoJSON.swift in Sources */,
+				655CB6A52B3E8C95008C0093 /* QuakeRow.swift in Sources */,
+				655CB6A42B3E8C95008C0093 /* QuakeMagnitude.swift in Sources */,
+				655CB6A82B3E8C95008C0093 /* SelectButton.swift in Sources */,
+				655CB6A92B3E8C95008C0093 /* RefreshButton.swift in Sources */,
+				655CB6942B3E8C83008C0093 /* Quake.swift in Sources */,
 				655CB6812B3E8C53008C0093 /* EarthquakesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +356,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +386,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
