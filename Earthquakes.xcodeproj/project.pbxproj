@@ -30,6 +30,8 @@
 		655ED89A2B3E99C4001BA3D5 /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655CB6C22B3E8E82008C0093 /* TestData.swift */; };
 		655ED89C2B3E99DB001BA3D5 /* TestDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655ED89B2B3E99DB001BA3D5 /* TestDownloader.swift */; };
 		655ED89E2B3E9A5E001BA3D5 /* QuakesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655ED89D2B3E9A5E001BA3D5 /* QuakesProvider.swift */; };
+		655EE80D2B3EC3F000443795 /* CacheEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655EE80C2B3EC3F000443795 /* CacheEntry.swift */; };
+		655EE80F2B3EC40E00443795 /* NSCache+Subscript.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655EE80E2B3EC40E00443795 /* NSCache+Subscript.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +71,8 @@
 		655ED8982B3E98F0001BA3D5 /* QuakeClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuakeClient.swift; sourceTree = "<group>"; };
 		655ED89B2B3E99DB001BA3D5 /* TestDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDownloader.swift; sourceTree = "<group>"; };
 		655ED89D2B3E9A5E001BA3D5 /* QuakesProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuakesProvider.swift; sourceTree = "<group>"; };
+		655EE80C2B3EC3F000443795 /* CacheEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheEntry.swift; sourceTree = "<group>"; };
+		655EE80E2B3EC40E00443795 /* NSCache+Subscript.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSCache+Subscript.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +145,8 @@
 				655ED8962B3E98A8001BA3D5 /* HTTPDataDownloader.swift */,
 				655ED8982B3E98F0001BA3D5 /* QuakeClient.swift */,
 				655ED89D2B3E9A5E001BA3D5 /* QuakesProvider.swift */,
+				655EE80C2B3EC3F000443795 /* CacheEntry.swift */,
+				655EE80E2B3EC40E00443795 /* NSCache+Subscript.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -280,6 +286,7 @@
 			files = (
 				655CB6952B3E8C83008C0093 /* QuakeError.swift in Sources */,
 				655CB6972B3E8C83008C0093 /* Quake+Color.swift in Sources */,
+				655EE80D2B3EC3F000443795 /* CacheEntry.swift in Sources */,
 				655CB6AB2B3E8C95008C0093 /* Quakes+Toolbar.swift in Sources */,
 				655CB6962B3E8C83008C0093 /* QuakeLocation.swift in Sources */,
 				655CB6A72B3E8C95008C0093 /* EditButton.swift in Sources */,
@@ -298,6 +305,7 @@
 				655CB6942B3E8C83008C0093 /* Quake.swift in Sources */,
 				655ED89C2B3E99DB001BA3D5 /* TestDownloader.swift in Sources */,
 				655CB6812B3E8C53008C0093 /* EarthquakesApp.swift in Sources */,
+				655EE80F2B3EC40E00443795 /* NSCache+Subscript.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
