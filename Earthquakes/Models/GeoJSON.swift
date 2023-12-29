@@ -8,7 +8,6 @@ A structure for decoding quake data.
 import Foundation
 
 struct GeoJSON: Decodable {
-
     private enum RootCodingKeys: String, CodingKey {
         case features
     }
