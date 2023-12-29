@@ -15,18 +15,22 @@ extension Quakes {
             if editMode == .active {
                 SelectButton(mode: $selectMode) {
                     if selectMode.isActive {
-                        selection = Set(provider.quakes.map { $0.code })
-                    } else {
                         selection = []
+                    } else {
+                        selection = Set(provider.quakes.map { $0.code })
                     }
                 }
             }
         }
         ToolbarItem(placement: .navigationBarTrailing) {
             EditButton(editMode: $editMode) {
-                selection.removeAll()
-                editMode = .inactive
-                selectMode = .inactive
+                if editMode.isEditing {
+                    selectMode = .inactive
+                } else {
+                    selection.removeAll()
+                    editMode = .active
+                    selectMode = .active
+                }
             }
         }
         ToolbarItemGroup(placement: .bottomBar) {

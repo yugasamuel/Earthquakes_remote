@@ -13,11 +13,12 @@ struct EditButton: View {
     var body: some View {
         Button {
             withAnimation {
-                if editMode == .active {
+                if editMode == .inactive {
+                    action()
+                    editMode = .active
+                } else {
                     action()
                     editMode = .inactive
-                } else {
-                    editMode = .active
                 }
             }
         } label: {

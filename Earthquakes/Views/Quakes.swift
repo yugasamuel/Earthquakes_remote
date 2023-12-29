@@ -20,7 +20,7 @@ struct Quakes: View {
     @State private var hasError = false
 
     var body: some View {
-        NavigationView {
+        NavigationStack {
             List(selection: $selection) {
                 ForEach(provider.quakes) { quake in
                     NavigationLink(destination: QuakeDetail(quake: quake)) {
@@ -45,7 +45,7 @@ struct Quakes: View {
 
 extension Quakes {
     var title: String {
-        if selectMode.isActive || selection.isEmpty {
+        if !selectMode.isActive || selection.isEmpty {
             return "Earthquakes"
         } else {
             return "\(selection.count) Selected"

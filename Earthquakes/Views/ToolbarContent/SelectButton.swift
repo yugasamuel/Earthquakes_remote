@@ -34,7 +34,7 @@ struct SelectButton: View {
                 action()
             }
         } label: {
-            Text(mode.isActive ? "Deselect All" : "Select All")
+            Text(mode.isActive ? "Select All" : "Deselect All")
         }
     }
 }
