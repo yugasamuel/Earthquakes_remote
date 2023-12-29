@@ -24,9 +24,11 @@
 		655CB6AA2B3E8C95008C0093 /* DeleteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655CB6A12B3E8C95008C0093 /* DeleteButton.swift */; };
 		655CB6AB2B3E8C95008C0093 /* Quakes+Toolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655CB6A22B3E8C95008C0093 /* Quakes+Toolbar.swift */; };
 		655CB6AC2B3E8C95008C0093 /* ToolbarStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655CB6A32B3E8C95008C0093 /* ToolbarStatus.swift */; };
-		655CB6C42B3E8E82008C0093 /* EarthquakesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655CB6C12B3E8E82008C0093 /* EarthquakesTests.swift */; };
-		655CB6C52B3E8E82008C0093 /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655CB6C22B3E8E82008C0093 /* TestData.swift */; };
-		655CB6C62B3E8E82008C0093 /* SampleData.json in Resources */ = {isa = PBXBuildFile; fileRef = 655CB6C32B3E8E82008C0093 /* SampleData.json */; };
+		655CB6C82B3E9114008C0093 /* EarthquakeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655CB6C72B3E9114008C0093 /* EarthquakeTests.swift */; };
+		655ED8972B3E98A8001BA3D5 /* HTTPDataDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655ED8962B3E98A8001BA3D5 /* HTTPDataDownloader.swift */; };
+		655ED8992B3E98F0001BA3D5 /* QuakeClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655ED8982B3E98F0001BA3D5 /* QuakeClient.swift */; };
+		655ED89A2B3E99C4001BA3D5 /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655CB6C22B3E8E82008C0093 /* TestData.swift */; };
+		655ED89C2B3E99DB001BA3D5 /* TestDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655ED89B2B3E99DB001BA3D5 /* TestDownloader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,9 +61,12 @@
 		655CB6A22B3E8C95008C0093 /* Quakes+Toolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Quakes+Toolbar.swift"; sourceTree = "<group>"; };
 		655CB6A32B3E8C95008C0093 /* ToolbarStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolbarStatus.swift; sourceTree = "<group>"; };
 		655CB6B82B3E8E6A008C0093 /* EarthquakesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EarthquakesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		655CB6C12B3E8E82008C0093 /* EarthquakesTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EarthquakesTests.swift; sourceTree = "<group>"; };
 		655CB6C22B3E8E82008C0093 /* TestData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestData.swift; sourceTree = "<group>"; };
-		655CB6C32B3E8E82008C0093 /* SampleData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SampleData.json; sourceTree = "<group>"; };
+		655CB6C72B3E9114008C0093 /* EarthquakeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthquakeTests.swift; sourceTree = "<group>"; };
+		655ED8952B3E948F001BA3D5 /* Earthquakes.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = Earthquakes.xctestplan; sourceTree = "<group>"; };
+		655ED8962B3E98A8001BA3D5 /* HTTPDataDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPDataDownloader.swift; sourceTree = "<group>"; };
+		655ED8982B3E98F0001BA3D5 /* QuakeClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuakeClient.swift; sourceTree = "<group>"; };
+		655ED89B2B3E99DB001BA3D5 /* TestDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDownloader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +90,7 @@
 		655CB6742B3E8C53008C0093 = {
 			isa = PBXGroup;
 			children = (
+				655ED8952B3E948F001BA3D5 /* Earthquakes.xctestplan */,
 				655CB67F2B3E8C53008C0093 /* Earthquakes */,
 				655CB6B92B3E8E6A008C0093 /* EarthquakesTests */,
 				655CB67E2B3E8C53008C0093 /* Products */,
@@ -116,6 +122,8 @@
 			isa = PBXGroup;
 			children = (
 				655CB6872B3E8C55008C0093 /* Preview Assets.xcassets */,
+				655CB6C22B3E8E82008C0093 /* TestData.swift */,
+				655ED89B2B3E99DB001BA3D5 /* TestDownloader.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -128,6 +136,8 @@
 				655CB6912B3E8C83008C0093 /* QuakeLocation.swift */,
 				655CB6922B3E8C83008C0093 /* Quake+Color.swift */,
 				655CB6932B3E8C83008C0093 /* GeoJSON.swift */,
+				655ED8962B3E98A8001BA3D5 /* HTTPDataDownloader.swift */,
+				655ED8982B3E98F0001BA3D5 /* QuakeClient.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -159,9 +169,7 @@
 		655CB6B92B3E8E6A008C0093 /* EarthquakesTests */ = {
 			isa = PBXGroup;
 			children = (
-				655CB6C12B3E8E82008C0093 /* EarthquakesTests.swift */,
-				655CB6C32B3E8E82008C0093 /* SampleData.json */,
-				655CB6C22B3E8E82008C0093 /* TestData.swift */,
+				655CB6C72B3E9114008C0093 /* EarthquakeTests.swift */,
 			);
 			path = EarthquakesTests;
 			sourceTree = "<group>";
@@ -257,7 +265,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				655CB6C62B3E8E82008C0093 /* SampleData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,11 +284,15 @@
 				655CB6AA2B3E8C95008C0093 /* DeleteButton.swift in Sources */,
 				655CB6A62B3E8C95008C0093 /* Quakes.swift in Sources */,
 				655CB6982B3E8C83008C0093 /* GeoJSON.swift in Sources */,
+				655ED89A2B3E99C4001BA3D5 /* TestData.swift in Sources */,
 				655CB6A52B3E8C95008C0093 /* QuakeRow.swift in Sources */,
 				655CB6A42B3E8C95008C0093 /* QuakeMagnitude.swift in Sources */,
 				655CB6A82B3E8C95008C0093 /* SelectButton.swift in Sources */,
+				655ED8972B3E98A8001BA3D5 /* HTTPDataDownloader.swift in Sources */,
 				655CB6A92B3E8C95008C0093 /* RefreshButton.swift in Sources */,
+				655ED8992B3E98F0001BA3D5 /* QuakeClient.swift in Sources */,
 				655CB6942B3E8C83008C0093 /* Quake.swift in Sources */,
+				655ED89C2B3E99DB001BA3D5 /* TestDownloader.swift in Sources */,
 				655CB6812B3E8C53008C0093 /* EarthquakesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,8 +301,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				655CB6C42B3E8E82008C0093 /* EarthquakesTests.swift in Sources */,
-				655CB6C52B3E8E82008C0093 /* TestData.swift in Sources */,
+				655CB6C82B3E9114008C0093 /* EarthquakeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,7 +368,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -415,7 +425,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
